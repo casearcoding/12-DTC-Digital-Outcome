@@ -99,7 +99,7 @@ while user_health > Zero and computer_health > Zero:
 **       'M' for Medicine (Probiotics)                                                                                                            **
 **        """).capitalize()
     while chosen_UW.isalpha() == False or chosen_UW not in User_Weapons:
-        chosen_UW = input("** Please enter a valid option                                                                                                                    **").capitalize()
+        chosen_UW = input("** Please enter a valid option ").capitalize()
     if chosen_UW == 'B':
         chosen_UW = 'Brushing'
     elif chosen_UW == 'F':
